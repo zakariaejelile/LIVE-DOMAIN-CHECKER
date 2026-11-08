@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <style>
+    body { font-family: Arial; width: 300px; padding: 10px; }
+    textarea { width: 100%; height: 140px; }
+    button { margin-top: 10px; width: 100%; padding: 8px; cursor: pointer; }
+    #results { margin-top: 15px; font-size: 14px; }
+    a { color: blue; }
+  </style>
+</head>
+<body>
+  <h2>Domain Checker</h2>
+
+  <textarea id="domainInput" placeholder="Enter domains, one per line..."></textarea>
+
+  <button id="checkBtn">Check Websites</button>
+
+  <button id="copyBtn" style="margin-top:10px; width:100%; padding:8px; display:none;">
+    Copy Working Websites
+  </button>
+
+  <div id="results"></div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
